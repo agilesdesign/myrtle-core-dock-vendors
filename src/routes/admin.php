@@ -1,0 +1,32 @@
+<?php
+
+Route::resource('vendors', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorController::class);
+Route::resource('vendors.addresses', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorAddressController::class, ['except' => ['index', 'show']]);
+Route::resource('vendors.phones', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorPhoneController::class, ['except' => ['index', 'show']]);
+Route::get('vendors/{vendor}/biograph', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorBiographController::class . '@edit', 'as' => 'vendors.biograph.edit']);
+Route::patch('vendors/{vendor}/biograph', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorBiographController::class . '@update', 'as' => 'vendors.biograph.update']);
+Route::get('vendors/{vendor}/commodities', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorCommoditiesController::class . '@edit', 'as' => 'vendors.commodities.edit']);
+Route::patch('vendors/{vendor}/commodities', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorCommoditiesController::class . '@update', 'as' => 'vendors.commodities.update']);
+Route::get('vendors/{vendor}/demographic', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorDemographicController::class . '@edit', 'as' => 'vendors.demographic.edit']);
+Route::patch('vendors/{vendor}/demographic', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorDemographicController::class . '@update', 'as' => 'vendors.demographic.update']);
+Route::get('vendors/{vendor}/government', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorGovernmentController::class . '@edit', 'as' => 'vendors.government.edit']);
+Route::patch('vendors/{vendor}/government', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorGovernmentController::class . '@update', 'as' => 'vendors.government.update']);
+Route::get('vendors/{vendor}/name', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorNameController::class . '@edit', 'as' => 'vendors.name.edit']);
+Route::patch('vendors/{vendor}/name', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorNameController::class . '@update', 'as' => 'vendors.name.update']);
+Route::get('vendors/{vendor}/permissions', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorPermissionsController::class . '@edit', 'as' => 'vendors.permissions.edit']);
+Route::patch('vendors/{vendor}/permissions', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorPermissionsController::class . '@update', 'as' => 'vendors.permissions.update']);
+Route::get('vendors/{vendor}/settings', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorSettingsController::class . '@edit', 'as' => 'vendors.settings.edit']);
+Route::patch('vendors/{vendor}/settings', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorSettingsController::class . '@update', 'as' => 'vendors.settings.update']);
+Route::get('vendors/{vendor}/website', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorWebsiteController::class . '@edit', 'as' => 'vendors.website.edit']);
+Route::patch('vendors/{vendor}/website', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorWebsiteController::class . '@update', 'as' => 'vendors.website.update']);
+Route::resource('vendors.contacts', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorContactController::class);
+Route::resource('vendors.contacts.emails', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorContactEmailController::class, ['except' => ['index', 'show']]);
+Route::get('vendors/{vendor}/contacts/{contact}/name', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorContactNameController::class . '@edit', 'as' => 'vendors.contacts.name.edit']);
+Route::patch('vendors/{vendor}/contacts/{contact}/name', ['uses' => \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorContactNameController::class . '@update', 'as' => 'vendors.contacts.name.update']);
+Route::resource('vendors.contacts.phones', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorContactPhoneController::class, ['except' => ['index', 'show']]);
+Route::resource('vendors.locations', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorLocationController::class);
+Route::resource('vendors.locations.addresses', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorLocationAddressesController::class);
+Route::resource('vendors.locations.phones', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorLocationPhonesController::class);
+Route::resource('vendors.notes', \Myrtle\Core\Vendors\Http\Controllers\Administrator\VendorNoteController::class, ['except' => ['index', 'show', 'edit', 'update']]);
+// Route::resource('vendors.certificationfiles', VendorCertificationFileController::class, ['except' => ['index']]);
+// Route::get('vendors/{vendors}/certificationfiles/{certificationfiles}/download', 'App\Http\Controllers\VendorCertificationFileController@download');

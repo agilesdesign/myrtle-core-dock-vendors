@@ -1,6 +1,6 @@
 {
-    "name": "agilesdesign/myrtle-vendors",
-    "description": "Vendors Dock for Myrtle WMS",
+    "name": "agilesdesign/myrtle-core-dock-vendors",
+    "description": "Core Vendors Dock for Myrtle WMS",
     "license": "MIT",
     "authors": [
         {
@@ -12,10 +12,10 @@
     "autoload": {
         "classmap": [
             "src/database",
-            "src/Myrtle/Docks"
+            "src/Myrtle/Core/Docks"
         ],
         "psr-4": {
-            "Myrtle\\Vendors\\": "src/Vendors"
+            "Myrtle\\Core\\Vendors\\": "src/Vendors"
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Person\ContactNameUpdateForm;
 use App\Models\Contact;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorContactNameController extends Controller {
 

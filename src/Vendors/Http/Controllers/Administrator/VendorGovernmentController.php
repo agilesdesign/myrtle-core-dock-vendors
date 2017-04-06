@@ -5,7 +5,7 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Vendor\VendorGovernmentSaveForm;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorGovernmentController extends Controller {
 

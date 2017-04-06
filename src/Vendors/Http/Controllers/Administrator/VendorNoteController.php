@@ -5,7 +5,7 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 use Myrtle\Notes\Models\Note;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorNoteController extends Controller
 {

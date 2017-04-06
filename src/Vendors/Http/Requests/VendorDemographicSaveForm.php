@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Vendors\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorDemographicSaveForm extends FormRequest
 {

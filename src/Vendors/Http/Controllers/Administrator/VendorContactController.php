@@ -5,8 +5,8 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 use App\Http\Controllers\Controller;
 use Myrtle\Contacts\Models\Contact;
-use Myrtle\Vendors\Http\Requests\VendorContactCreateForm;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Http\Requests\VendorContactCreateForm;
+use Myrtle\Core\Vendors\Models\Vendor;
 use Illuminate\Http\Request;
 
 class VendorContactController extends Controller

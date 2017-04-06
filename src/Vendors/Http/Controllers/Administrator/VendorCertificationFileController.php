@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests;
 use App\Models\CertificationFile;
 use App\Models\CertificationFileType;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 

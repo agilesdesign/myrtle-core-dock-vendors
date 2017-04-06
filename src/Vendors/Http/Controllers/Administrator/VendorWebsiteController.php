@@ -4,7 +4,7 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorWebsiteController extends Controller
 {

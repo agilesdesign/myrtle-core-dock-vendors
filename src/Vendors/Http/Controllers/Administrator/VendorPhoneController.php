@@ -4,9 +4,9 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Myrtle\Phones\Models\Phone;
-use Myrtle\Vendors\Models\Vendor;
-use Myrtle\Phones\Models\PhoneType;
+use Myrtle\Core\Phones\Models\Phone;
+use Myrtle\Core\Vendors\Models\Vendor;
+use Myrtle\Core\Phones\Models\PhoneType;
 
 class VendorPhoneController extends Controller
 {

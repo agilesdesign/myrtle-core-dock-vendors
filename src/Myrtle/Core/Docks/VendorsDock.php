@@ -5,11 +5,11 @@ namespace Myrtle\Core\Docks;
 use Myrtle\Core\Roles\Models\Role;
 use Myrtle\Core\Users\Models\User;
 use Myrtle\Core\Docks\Facades\Docks;
-use Myrtle\Vendors\Models\Vendor;
-use Myrtle\Phones\Models\PhoneType;
+use Myrtle\Core\Vendors\Models\Vendor;
+use Myrtle\Core\Phones\Models\PhoneType;
 use Illuminate\Support\Facades\View;
-use Myrtle\Addresses\Models\AddressType;
-use Myrtle\Vendors\Policies\VendorsPolicy;
+use Myrtle\Core\Addresses\Models\AddressType;
+use Myrtle\Core\Vendors\Policies\VendorsPolicy;
 
 class VendorsDock extends Dock
 {

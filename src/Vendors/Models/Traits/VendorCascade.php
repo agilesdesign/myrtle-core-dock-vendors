@@ -2,10 +2,10 @@
 
 namespace Myrtle\Core\Vendors\Models\Traits;
 
-use Myrtle\Vendors\Models\Vendor;
-use Myrtle\Vendors\Observers\VendorObserver;
-use Myrtle\Vendors\Observers\VendorCascadeObserver;
-use Myrtle\Vendors\Models\Scopes\VendorOrderByNameScope;
+use Myrtle\Core\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Observers\VendorObserver;
+use Myrtle\Core\Vendors\Observers\VendorCascadeObserver;
+use Myrtle\Core\Vendors\Models\Scopes\VendorOrderByNameScope;
 
 trait VendorCascade
 {

@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Vendors\Policies;
 
 use App\User;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class VendorsPolicy

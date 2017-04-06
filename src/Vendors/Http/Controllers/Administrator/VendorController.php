@@ -3,13 +3,13 @@
 namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 use Myrtle\Core\Commodities\Models\Commodity;
-use Myrtle\Vendors\Http\Requests\UpdateVendorRequest;
-use Myrtle\Vendors\Http\Requests\VendorSaveForm;
+use Myrtle\Core\Vendors\Http\Requests\UpdateVendorRequest;
+use Myrtle\Core\Vendors\Http\Requests\VendorSaveForm;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
-use Myrtle\Vendors\Models\Vendor;
-use Myrtle\Vendors\Policies\VendorsPolicy;
+use Myrtle\Core\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Policies\VendorsPolicy;
 use Myrtle\Core\Establishments\Models\EstablishmentType;
 
 class VendorController extends Controller

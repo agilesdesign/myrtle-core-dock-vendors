@@ -4,7 +4,7 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 use App\Models\Contact;
 use App\Models\Email;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;

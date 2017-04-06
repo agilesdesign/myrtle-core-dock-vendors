@@ -5,8 +5,8 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 use Myrtle\Core\Locations\Models\Location;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Myrtle\Addresses\Models\Address;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Addresses\Models\Address;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorLocationAddressesController extends Controller {
 

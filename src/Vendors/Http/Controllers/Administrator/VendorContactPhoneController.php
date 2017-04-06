@@ -3,9 +3,9 @@
 namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 
-use Myrtle\Phones\Models\Phone;
-use Myrtle\Phones\Models\PhoneType;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Phones\Models\Phone;
+use Myrtle\Core\Phones\Models\PhoneType;
+use Myrtle\Core\Vendors\Models\Vendor;
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
 use Illuminate\Http\Request;

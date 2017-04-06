@@ -4,9 +4,9 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests;
-use Myrtle\Addresses\Models\Address;
-use Myrtle\Addresses\Models\AddressType;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Addresses\Models\Address;
+use Myrtle\Core\Addresses\Models\AddressType;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorAddressController extends Controller {
 

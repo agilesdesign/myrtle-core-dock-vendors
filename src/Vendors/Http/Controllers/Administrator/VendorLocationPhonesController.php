@@ -6,7 +6,7 @@ use Myrtle\Core\Locations\Models\Location;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Myrtle\PHones\Models\Phone;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorLocationPhonesController extends Controller
 {

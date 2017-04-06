@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Vendors\Observers;
 
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 
 class VendorCascadeObserver
 {

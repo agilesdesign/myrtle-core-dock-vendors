@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
 use App\Http\Requests\Vendor\VendorDemographicSaveForm;
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 use App\Http\Controllers\Controller;
 
 class VendorDemographicController extends Controller

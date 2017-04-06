@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Vendors\Http\Requests;
 
-use Myrtle\Vendors\Models\Vendor;
+use Myrtle\Core\Vendors\Models\Vendor;
 use Illuminate\Foundation\Http\FormRequest;
 
 class VendorSaveForm extends FormRequest

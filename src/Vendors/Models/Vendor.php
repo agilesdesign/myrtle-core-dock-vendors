@@ -10,7 +10,7 @@ use Myrtle\Core\Settings\Models\Traits\Settingable;
 use Myrtle\Core\Locations\Models\Traits\Locationable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Myrtle\Vendors\Models\Traits\VendorCascade;
+use Myrtle\Core\Vendors\Models\Traits\VendorCascade;
 use Myrtle\Core\Commodities\Models\Traits\Commodityable;
 use Repertoire\Models\Constants\EloquentDates;
 use Repertoire\Models\Traits\CanBeSearched;

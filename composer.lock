@@ -1,0 +1,104 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5cbdcd89b2954f97a0dd87c34a500994",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "agilesdesign/myrtle-core-dock-establishments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-establishments.git",
+                "reference": "c7c39505b45e8fb12e2e79a81830de43b38f1791"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-establishments/zipball/c7c39505b45e8fb12e2e79a81830de43b38f1791",
+                "reference": "c7c39505b45e8fb12e2e79a81830de43b38f1791",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Establishments\\": "src/Establishments"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Establishments Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-establishments/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-establishments/issues"
+            },
+            "time": "2017-04-06T16:11:49+00:00"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-permissions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git",
+                "reference": "735c9a5673e209127450f84ee84a9613eae994db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-permissions/zipball/735c9a5673e209127450f84ee84a9613eae994db",
+                "reference": "735c9a5673e209127450f84ee84a9613eae994db",
+                "shasum": ""
+            },
+            "require-dev": {
+                "agilesdesign/myrtle-core-dock-docks": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Permissions\\": "src/Permissions"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Permissions Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-permissions/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-permissions/issues"
+            },
+            "time": "2017-04-06T16:53:33+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "agilesdesign/myrtle-core-dock-establishments": 20,
+        "agilesdesign/myrtle-core-dock-permissions": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

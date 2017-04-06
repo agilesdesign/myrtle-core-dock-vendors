@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a060a881b88210f50144bf6240aa3bba",
+    "content-hash": "0bd9e97648cf3ee2e2dcf3e8a1290866",
     "packages": [
         {
             "name": "agilesdesign/flasher",
@@ -211,6 +211,46 @@
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-establishments/issues"
             },
             "time": "2017-04-06 16:11:49"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-locations",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-locations.git",
+                "reference": "1184f3a0251167b0fcc4cd1bf4322d2345416b22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-locations/zipball/1184f3a0251167b0fcc4cd1bf4322d2345416b22",
+                "reference": "1184f3a0251167b0fcc4cd1bf4322d2345416b22",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Locations\\": "src/Locations"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Locations Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-locations/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-locations/issues"
+            },
+            "time": "2017-04-06 16:16:30"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-permissions",
@@ -2312,6 +2352,7 @@
         "agilesdesign/myrtle-core-dock-commodities": 20,
         "agilesdesign/myrtle-core-dock-docks": 20,
         "agilesdesign/myrtle-core-dock-establishments": 20,
+        "agilesdesign/myrtle-core-dock-locations": 20,
         "agilesdesign/myrtle-core-dock-permissions": 20,
         "agilesdesign/myrtle-core-dock-roles": 20,
         "agilesdesign/myrtle-core-dock-users": 20

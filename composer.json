@@ -14,6 +14,7 @@
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-commodities.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-docks.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-establishments.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-locations.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-phones.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-roles.git"},
@@ -23,6 +24,7 @@
         "agilesdesign/myrtle-core-dock-commodities": "dev-master",
         "agilesdesign/myrtle-core-dock-docks": "dev-master",
         "agilesdesign/myrtle-core-dock-establishments": "dev-master",
+        "agilesdesign/myrtle-core-dock-locations": "dev-master",
         "agilesdesign/myrtle-core-dock-permissions": "dev-master",
         "agilesdesign/myrtle-core-dock-roles": "dev-master",
         "agilesdesign/myrtle-core-dock-users": "dev-master"

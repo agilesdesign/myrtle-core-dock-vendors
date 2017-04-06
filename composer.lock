@@ -95,12 +95,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agilesdesign/myrtle-core-dock-commodities.git",
-                "reference": "6d8bf90c2ebac8a8d5e618f6a8dc7de45e5ecec8"
+                "reference": "bac9614e4ad2c3610bb121e5c5e160436db12494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-commodities/zipball/6d8bf90c2ebac8a8d5e618f6a8dc7de45e5ecec8",
-                "reference": "6d8bf90c2ebac8a8d5e618f6a8dc7de45e5ecec8",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-commodities/zipball/bac9614e4ad2c3610bb121e5c5e160436db12494",
+                "reference": "bac9614e4ad2c3610bb121e5c5e160436db12494",
                 "shasum": ""
             },
             "type": "library",
@@ -127,7 +127,7 @@
                 "source": "https://github.com/agilesdesign/myrtle-core-dock-commodities/tree/master",
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-commodities/issues"
             },
-            "time": "2017-04-06 15:29:11"
+            "time": "2017-04-06 17:37:14"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-docks",

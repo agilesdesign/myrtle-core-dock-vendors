@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bd9e97648cf3ee2e2dcf3e8a1290866",
+    "content-hash": "c47831dc4d4e0ab6da37b2e33ab0fce7",
     "packages": [
         {
             "name": "agilesdesign/flasher",
@@ -377,6 +377,46 @@
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-roles/issues"
             },
             "time": "2017-04-06 16:19:04"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-settings",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-settings.git",
+                "reference": "03154b13bfaaf3dff8849616bdcb64f79a6f629f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-settings/zipball/03154b13bfaaf3dff8849616bdcb64f79a6f629f",
+                "reference": "03154b13bfaaf3dff8849616bdcb64f79a6f629f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Settings\\": "src/Settings"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Settings Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-settings/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-settings/issues"
+            },
+            "time": "2017-04-05 15:09:15"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-users",
@@ -2355,6 +2395,7 @@
         "agilesdesign/myrtle-core-dock-locations": 20,
         "agilesdesign/myrtle-core-dock-permissions": 20,
         "agilesdesign/myrtle-core-dock-roles": 20,
+        "agilesdesign/myrtle-core-dock-settings": 20,
         "agilesdesign/myrtle-core-dock-users": 20
     },
     "prefer-stable": false,

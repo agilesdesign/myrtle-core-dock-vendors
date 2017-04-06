@@ -6,7 +6,7 @@ use Myrtle\Core\Establishments\Models\Traits\BelongsToEstablishmentType;
 use Myrtle\Core\Permissions\Models\Traits\CanView;
 use Myrtle\Core\Permissions\Models\Traits\DefinesAbilities;
 use Laravel\Scout\Searchable;
-use Myrtle\Settings\Models\Traits\Settingable;
+use Myrtle\Core\Settings\Models\Traits\Settingable;
 use Myrtle\Core\Locations\Models\Traits\Locationable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

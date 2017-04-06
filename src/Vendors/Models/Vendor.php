@@ -7,7 +7,7 @@ use Myrtle\Core\Permissions\Models\Traits\CanView;
 use Myrtle\Core\Permissions\Models\Traits\DefinesAbilities;
 use Laravel\Scout\Searchable;
 use Myrtle\Settings\Models\Traits\Settingable;
-use Myrtle\Locations\Models\Traits\Locationable;
+use Myrtle\Core\Locations\Models\Traits\Locationable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Myrtle\Vendors\Models\Traits\VendorCascade;

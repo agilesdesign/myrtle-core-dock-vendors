@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
-use Myrtle\Locations\Models\Location;
+use Myrtle\Core\Locations\Models\Location;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Myrtle\PHones\Models\Phone;

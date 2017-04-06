@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Myrtle\Vendors\Models\Vendor;
 use Myrtle\Vendors\Policies\VendorsPolicy;
-use Myrtle\Establishments\Models\EstablishmentType;
+use Myrtle\Core\Establishments\Models\EstablishmentType;
 
 class VendorController extends Controller
 {

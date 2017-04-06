@@ -4,7 +4,7 @@ namespace Myrtle\Core\Vendors\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Myrtle\Establishments\Models\EstablishmentType;
+use Myrtle\Core\Establishments\Models\EstablishmentType;
 
 class VendorBiograph extends Model
 {

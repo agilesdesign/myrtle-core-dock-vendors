@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Vendors\Http\Requests;
 
-use Myrtle\Establishments\Http\Requests\EstablishmentGovernmentSaveForm;
+use Myrtle\Core\Establishments\Http\Requests\EstablishmentGovernmentSaveForm;
 
 class VendorGovernmentSaveForm extends EstablishmentGovernmentSaveForm {
 

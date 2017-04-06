@@ -8,7 +8,15 @@
             "email": "jseliga@agilesdesign.com"
         }
     ],
+    "repositories" : [
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-establishments.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git"}
+    ],
     "require": {},
+    "require-dev": {
+        "agilesdesign/myrtle-core-dock-establishments": "dev-master",
+        "agilesdesign/myrtle-core-dock-permissions": "dev-master"
+    },
     "autoload": {
         "classmap": [
             "src/database",

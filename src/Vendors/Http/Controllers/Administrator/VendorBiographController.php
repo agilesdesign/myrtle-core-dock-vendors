@@ -5,7 +5,7 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 use Myrtle\Vendors\Models\Vendor;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Vendor\VendorBiographSaveForm;
-use Myrtle\Establishments\Models\EstablishmentType;
+use Myrtle\Core\Establishments\Models\EstablishmentType;
 
 class VendorBiographController extends Controller
 {

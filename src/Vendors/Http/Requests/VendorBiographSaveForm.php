@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Vendors\Http\Requests;
 
-use Myrtle\Establishments\Http\Requests\EstablishmentBiographSaveForm;
+use Myrtle\Core\Establishments\Http\Requests\EstablishmentBiographSaveForm;
 
 class VendorBiographSaveForm extends EstablishmentBiographSaveForm
 {

@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Vendors\Models;
 
-use Myrtle\Establishments\Models\Traits\BelongsToEstablishmentType;
+use Myrtle\Core\Establishments\Models\Traits\BelongsToEstablishmentType;
 use Myrtle\Permissions\Models\Traits\CanView;
 use Myrtle\Permissions\Models\Traits\DefinesAbilities;
 use Laravel\Scout\Searchable;

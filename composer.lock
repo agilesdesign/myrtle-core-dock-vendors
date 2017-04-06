@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c47831dc4d4e0ab6da37b2e33ab0fce7",
+    "content-hash": "3256700c18357bf66407df419fb32fbf",
     "packages": [
         {
             "name": "agilesdesign/flasher",
@@ -468,6 +468,48 @@
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-users/issues"
             },
             "time": "2017-04-06 17:04:40"
+        },
+        {
+            "name": "agilesdesign/repertoire",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/repertoire.git",
+                "reference": "e5a803323f6b896a8bb83f9001a785ac0655220c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/repertoire/zipball/e5a803323f6b896a8bb83f9001a785ac0655220c",
+                "reference": "e5a803323f6b896a8bb83f9001a785ac0655220c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "7.0.*"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Repertoire\\": "src/Repertoire"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Collection of development utilities for Laravel",
+            "support": {
+                "source": "https://github.com/agilesdesign/repertoire/tree/v1.0.0-alpha.1",
+                "issues": "https://github.com/agilesdesign/repertoire/issues"
+            },
+            "time": "2017-04-04 16:08:04"
         }
     ],
     "packages-dev": [
@@ -2396,7 +2438,8 @@
         "agilesdesign/myrtle-core-dock-permissions": 20,
         "agilesdesign/myrtle-core-dock-roles": 20,
         "agilesdesign/myrtle-core-dock-settings": 20,
-        "agilesdesign/myrtle-core-dock-users": 20
+        "agilesdesign/myrtle-core-dock-users": 20,
+        "agilesdesign/repertoire": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

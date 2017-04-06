@@ -11,6 +11,7 @@
     ],
     "repositories" : [
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-addresses.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-commodities.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-docks.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-establishments.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git"},
@@ -19,6 +20,7 @@
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-users.git"}
     ],
     "require": {
+        "agilesdesign/myrtle-core-dock-commodities": "dev-master",
         "agilesdesign/myrtle-core-dock-docks": "dev-master",
         "agilesdesign/myrtle-core-dock-establishments": "dev-master",
         "agilesdesign/myrtle-core-dock-permissions": "dev-master",

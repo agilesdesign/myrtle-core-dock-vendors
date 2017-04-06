@@ -5,7 +5,7 @@ namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Myrtle\Vendors\Models\Vendor;
-use Myrtle\Commodities\Models\Commodity;
+use Myrtle\Core\Commodities\Models\Commodity;
 
 class VendorCommoditiesController extends Controller
 {

@@ -11,7 +11,7 @@ use Myrtle\Locations\Models\Traits\Locationable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Myrtle\Vendors\Models\Traits\VendorCascade;
-use Myrtle\Commodities\Models\Traits\Commodityable;
+use Myrtle\Core\Commodities\Models\Traits\Commodityable;
 use Repertoire\Models\Constants\EloquentDates;
 use Repertoire\Models\Traits\CanBeSearched;
 use Repertoire\Models\Traits\CreatedBy;

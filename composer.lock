@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96b5da8483fcd01c8b9c27620f811142",
+    "content-hash": "a060a881b88210f50144bf6240aa3bba",
     "packages": [
         {
             "name": "agilesdesign/flasher",
@@ -88,6 +88,46 @@
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-addresses/issues"
             },
             "time": "2017-04-06 16:08:34"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-commodities",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-commodities.git",
+                "reference": "6d8bf90c2ebac8a8d5e618f6a8dc7de45e5ecec8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-commodities/zipball/6d8bf90c2ebac8a8d5e618f6a8dc7de45e5ecec8",
+                "reference": "6d8bf90c2ebac8a8d5e618f6a8dc7de45e5ecec8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Commodities\\": "src/Commodities"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agiledesign.com"
+                }
+            ],
+            "description": "Core Commodities Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-commodities/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-commodities/issues"
+            },
+            "time": "2017-04-06 15:29:11"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-docks",
@@ -2269,6 +2309,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "agilesdesign/myrtle-core-dock-commodities": 20,
         "agilesdesign/myrtle-core-dock-docks": 20,
         "agilesdesign/myrtle-core-dock-establishments": 20,
         "agilesdesign/myrtle-core-dock-permissions": 20,

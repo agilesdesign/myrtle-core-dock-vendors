@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
-use Myrtle\Commodities\Models\Commodity;
+use Myrtle\Core\Commodities\Models\Commodity;
 use Myrtle\Vendors\Http\Requests\UpdateVendorRequest;
 use Myrtle\Vendors\Http\Requests\VendorSaveForm;
 use App\Http\Controllers\Controller;

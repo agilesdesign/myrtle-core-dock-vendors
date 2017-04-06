@@ -3,8 +3,8 @@
 namespace Myrtle\Core\Vendors\Models;
 
 use Myrtle\Core\Establishments\Models\Traits\BelongsToEstablishmentType;
-use Myrtle\Permissions\Models\Traits\CanView;
-use Myrtle\Permissions\Models\Traits\DefinesAbilities;
+use Myrtle\Core\Permissions\Models\Traits\CanView;
+use Myrtle\Core\Permissions\Models\Traits\DefinesAbilities;
 use Laravel\Scout\Searchable;
 use Myrtle\Settings\Models\Traits\Settingable;
 use Myrtle\Locations\Models\Traits\Locationable;

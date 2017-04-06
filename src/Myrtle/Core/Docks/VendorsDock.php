@@ -2,9 +2,9 @@
 
 namespace Myrtle\Core\Docks;
 
-use Myrtle\Roles\Models\Role;
-use Myrtle\Users\Models\User;
-use Myrtle\Docks\Facades\Docks;
+use Myrtle\Core\Roles\Models\Role;
+use Myrtle\Core\Users\Models\User;
+use Myrtle\Core\Docks\Facades\Docks;
 use Myrtle\Vendors\Models\Vendor;
 use Myrtle\Phones\Models\PhoneType;
 use Illuminate\Support\Facades\View;

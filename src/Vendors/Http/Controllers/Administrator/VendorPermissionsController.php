@@ -2,11 +2,11 @@
 
 namespace Myrtle\Core\Vendors\Http\Controllers\Administrator;
 
-use Myrtle\Docks\Dock;
-use Myrtle\Permissions\Models\Ability;
+use Myrtle\Core\Docks\Dock;
+use Myrtle\Core\Permissions\Models\Ability;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Myrtle\Docks\Facades\Docks;
+use Myrtle\Core\Docks\Facades\Docks;
 use Myrtle\Vendors\Models\Vendor;
 
 class VendorPermissionsController extends Controller

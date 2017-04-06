@@ -1,6 +1,7 @@
 {
     "name": "agilesdesign/myrtle-core-dock-vendors",
     "description": "Core Vendors Dock for Myrtle WMS",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -9,13 +10,23 @@
         }
     ],
     "repositories" : [
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-addresses.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-docks.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-establishments.git"},
-        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git"}
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-phones.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-roles.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-users.git"}
     ],
-    "require": {},
-    "require-dev": {
+    "require": {
+        "agilesdesign/myrtle-core-dock-docks": "dev-master",
         "agilesdesign/myrtle-core-dock-establishments": "dev-master",
-        "agilesdesign/myrtle-core-dock-permissions": "dev-master"
+        "agilesdesign/myrtle-core-dock-permissions": "dev-master",
+        "agilesdesign/myrtle-core-dock-roles": "dev-master",
+        "agilesdesign/myrtle-core-dock-users": "dev-master"
+    },
+    "require-dev": {
+        "laravel/laravel": "5.4.*"
     },
     "autoload": {
         "classmap": [
